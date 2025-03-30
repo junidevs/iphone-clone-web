@@ -29,3 +29,7 @@ To get started with this project, follow these steps:
    ```bash
    git clone https://github.com/junidevs/iphone-clone-web
    cd iphone-clone-web
+
+
+https://github.com/user-attachments/assets/6116b0bd-c4f4-493b-abfa-aefb01fd4f26
+
