@@ -1,54 +1,31 @@
-# React + TypeScript + Vite
+# 📱 iPhone Clone Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **iPhone Clone Website** ✨, a visually stunning clone of the iPhone interface built using **Three.js**
+🖥️ and **GSAP** 💨. This project leverages modern web technologies to bring the sleek, interactive design of an iPhone to
+life on your browser, featuring immersive 3D elements 🎮 and smooth animations 🌀.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is built using the following technologies:
 
-## Expanding the ESLint configuration
+- **Three.js**: A powerful 3D library for rendering 3D graphics directly in the browser 🌐.
+- **GSAP**: A fast, lightweight animation library for complex animations and transitions 🎬.
+- **React**: A JavaScript library for building user interfaces, enabling a fast and dynamic experience ⚛️.
+- **TailwindCSS**: A utility-first CSS framework for styling, making the design process fast and responsive 💅.
+- **Vite**: A modern build tool that serves as the development server for fast builds and hot reloading 🔥.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+- **3D Interactions**: Use Three.js to create 3D models and render them directly within the browser 🏗️.
+- **Smooth Animations**: GSAP powers smooth transitions and animations for a lifelike experience 🎥.
+- **Responsive Design**: TailwindCSS ensures the site looks great on all screen sizes, from mobile to desktop 📱💻.
+- **TypeScript**: The project is written in TypeScript, ensuring type safety and reducing bugs during development ⚙️.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚡ Setup
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
+To get started with this project, follow these steps:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/junidevs/iphone-clone-web
+   cd iphone-clone-web
